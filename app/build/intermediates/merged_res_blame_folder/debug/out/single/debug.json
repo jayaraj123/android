@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_notification_logo.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\drawable-nodpi\\notification_logo.png"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_whatsapp_logo.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\drawable-nodpi\\whatsapp_logo.png"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_facebook_logo.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\drawable-nodpi\\facebook_logo.png"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_instagram_logo.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\drawable-nodpi\\instagram_logo.png"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_other_notification_logo.jpg.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\drawable-nodpi\\other_notification_logo.jpg"
+    },
+    {
+        "merged": "E:\\Aarthi\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Aarthi\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:573691493775:android:b3a037879ac1ae04bbdffa",
         "android_client_info": {
-          "package_name": "com.github.chagall.notificationlistenerexample"
+          "package_name": "com.raj.notificationlistener"
         }
       },
       "oauth_client": [

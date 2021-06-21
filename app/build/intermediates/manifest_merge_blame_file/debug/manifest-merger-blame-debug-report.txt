@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.raj.notificationlistener"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->E:\Aarthi\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Aarthi\android\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:13:5-79
+13-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:14:5-67
+14-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:14:22-64
+15
+16    <application
+16-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:5:5-28:19
+17        android:name="androidx.multidex.MultiDexApplication"
+18        android:allowBackup="true"
+18-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\0ee0eae06ac06c681d168b3ccaeb8bc7\core-1.3.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:8:9-41
+23        android:supportsRtl="true"
+23-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:9:9-35
+24        android:theme="@style/AppTheme" >
+24-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:10:9-40
+25        <activity android:name="com.raj.notificationlistener.MainActivity" >
+25-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:11:9-17:20
+25-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:11:19-47
+26            <intent-filter>
+26-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:12:13-16:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:13:17-69
+27-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:13:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:15:17-77
+29-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:15:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <service
+33-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:19:9-27:19
+34            android:name="com.raj.notificationlistener.NotificationListenerExampleService"
+34-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:19:18-68
+35            android:enabled="true"
+35-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:21:13-35
+36            android:exported="true"
+36-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:22:13-36
+37            android:label="@string/service_label"
+37-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:20:13-50
+38            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+38-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:23:13-87
+39            <intent-filter>
+39-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:24:13-26:29
+40                <action android:name="android.service.notification.NotificationListenerService" />
+40-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:25:17-99
+40-->E:\Aarthi\android\app\src\main\AndroidManifest.xml:25:25-96
+41            </intent-filter>
+42        </service>
+43        <service
+43-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:17:9-23:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:18:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:19:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:20:13-22:85
+48                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+48-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:21:17-111
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\S\.gradle\caches\transforms-2\files-2.1\5013fcbe6ee14a9268f54c08603aaa3d\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:22:17-82
+50            <!--
+51                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+52                clients to use it as well, by defining this registrar in their own core/common library.
+53            -->
+54            <meta-data
+54-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+55                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+55-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+57        </service>
+58
+59        <provider
+59-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+60            android:name="com.google.firebase.provider.FirebaseInitProvider"
+60-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+61            android:authorities="com.raj.notificationlistener.firebaseinitprovider"
+61-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+63            android:exported="false"
+63-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+64            android:initOrder="100" />
+64-->[com.google.firebase:firebase-common:19.5.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\b0f77374b47d9fa138517341107f6b5b\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\41926189f6437c4802da3bc03b371d30\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\41926189f6437c4802da3bc03b371d30\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\41926189f6437c4802da3bc03b371d30\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\41926189f6437c4802da3bc03b371d30\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\a3d12d1fc89a97f738d5feb33bafe6f6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\a3d12d1fc89a97f738d5feb33bafe6f6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\S\.gradle\caches\transforms-2\files-2.1\a3d12d1fc89a97f738d5feb33bafe6f6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+74    </application>
+75
+76</manifest>
