@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573691493775",
+    "project_id": "notificationlistener-9d206",
+    "storage_bucket": "notificationlistener-9d206.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573691493775:android:b3a037879ac1ae04bbdffa",
+        "android_client_info": {
+          "package_name": "com.github.chagall.notificationlistenerexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573691493775-madcqdts01n7eb3kra3kdu0auvq7tm6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQq4cPjEajqmk9z5L0Tj2GcuGCHehQu84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573691493775-madcqdts01n7eb3kra3kdu0auvq7tm6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
