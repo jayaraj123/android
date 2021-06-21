@@ -27,6 +27,7 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
+
     FirebaseFirestore firebaseFirestore;
 
     private static final String ENABLED_NOTIFICATION_LISTENERS = "enabled_notification_listeners";
