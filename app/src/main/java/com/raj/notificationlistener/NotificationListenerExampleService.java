@@ -46,6 +46,7 @@ import java.util.Locale;
 public class NotificationListenerExampleService extends NotificationListenerService {
 
 
+
     public String title;
     public String text;
     Blocklist blocklist = new Blocklist();
